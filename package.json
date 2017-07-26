@@ -1,6 +1,6 @@
 {
   "name": "receiver-server",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "receiver",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,8 @@
     "webpack",
     "node"
   ],
-  "files": [
-    "index.js"
-  ],
   "author": "806944687@qq.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/w724883/receiver-server/issues"
   },
