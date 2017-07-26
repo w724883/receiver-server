@@ -1,6 +1,6 @@
 {
   "name": "receiver-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "receiver",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,15 @@
     "url": "git+https://github.com/w724883/receiver-server.git"
   },
   "keywords": [
-    "receiver"
+    "receiver",
+    "http",
+    "webpack",
+    "node"
   ],
-  "author": "w724883",
+  "files": [
+    "index.js"
+  ],
+  "author": "806944687@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/w724883/receiver-server/issues"
@@ -21,6 +27,6 @@
   "homepage": "https://github.com/w724883/receiver-server#readme",
   "dependencies": {
     "formidable": "^1.1.1",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.1"
   }
 }
