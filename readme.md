@@ -11,3 +11,20 @@
 linux后台运行`nohup node index.js &`
 
 默认8999端口，linux查看8999端口信息`netstat -ap|grep 8999`，kill掉进程id为pid的进程`kill -9 pid`
+
+
+- 说明
+
+```javascript
+var receiverServer = require('receiver-server');
+
+/*
+** port 设置服务端口，默认8999
+**
+*/
+
+receiverServer({
+	port:8999
+});
+
+```
