@@ -2,7 +2,7 @@
 
 - 安装
 
-`npm install receiver-server`，**应该安装于服务端，客户端安装请看[receiver-client](https://github.com/w724883/receiver-client)**
+[`npm install receiver-server`](https://www.npmjs.com/package/receiver-server)，**应该安装于服务端，客户端安装请看[receiver-client](https://github.com/w724883/receiver-client)**
 
 - 启动
 
