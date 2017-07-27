@@ -7,7 +7,7 @@ var formidable = require('formidable');
 var mkdirp = require('mkdirp');
 
 module.exports = function(params){
-    var PORT = params.port || 8999;
+    var PORT = (params && params.port) || 8999;
 
     var server = http.createServer(function (req, res) {
         
